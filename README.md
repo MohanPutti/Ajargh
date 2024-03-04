@@ -62,7 +62,7 @@ create users with roles to run and check endpoints
 
 Hosted on ip: 65.1.13.64
 
-EndPoints to Test
+**EndPoints to Test**
 To check login user authentication
 default users created -
 - mohan pw: mohan123$ role: Admin
@@ -71,14 +71,14 @@ default users created -
 
 End Point - http://65.1.13.64:6001/user/login returns jwt token which can be passed as Bearer token to all other endpoints
 
-Listing endpoints
+**Listing endpoints**
 GET /listing/ -to list all listings
 GET /listing/:listingId - to list a listing by id
 POST /listing/ - to create a listing
 DEL /listing/:listingId -to delete a listing by id
 PUT /listing/:listingId - to update a listing
 
-Review EndPoints
+**Review EndPoints**
 GET /review/ -to list all reviews
 GET /review/:reviewId - to list a review by id
 POST /review/ - to create a review
